@@ -9,6 +9,6 @@ form.addEventListener("submit",(event)=> {
         open('tasks.html');
     } else
     {
-        console.log("Veuillez saisir votre prénom.")
+        alert("Veuillez saisir votre prénom.")
     }
 })
