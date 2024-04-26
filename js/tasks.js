@@ -136,9 +136,9 @@ function displayList() {
 
 function openItem(id) {
   if (!!id) {
-    localStorage.setItem('item', id);
-    console.log("item:" + localStorage.getItem('item'));
-    open('item.html');
+    //localStorage.setItem('item', id);
+    //console.log("item:" + localStorage.getItem('item'));
+    open('item.html?id='+id,"_self");
   } else {
     console.log("openItem : Aucun id")
   }
